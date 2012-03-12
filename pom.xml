@@ -22,22 +22,26 @@
     </snapshotRepository>
   </distributionManagement>
 
+  <!-- please keep these alphabetized to prevent duplicates and conflicts -->
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <spring.framework.version>3.1.0.RELEASE</spring.framework.version>
-    <javax.servlet.version>3.0.1</javax.servlet.version>
-    <javax.inject.version>1</javax.inject.version>
-    <log4j.version>1.2.16</log4j.version>
-    <slf4j-log4j12.version>1.6.1</slf4j-log4j12.version>
-    <easymock.version>3.1</easymock.version>
-    <junit.version>4.10</junit.version>
-    <jodatime.version>2.0</jodatime.version>
-    <guava.version>11.0.1</guava.version>
-    <commons-lang3.version>3.1</commons-lang3.version>
+    <cargo-maven2-plugin.version>1.2.0</cargo-maven2-plugin.version>
     <cglib.version>2.2.2</cglib.version>
-    <javassist.version>3.12.1.GA</javassist.version>
-    <jackson-mapper-asl.version>1.9.3</jackson-mapper-asl.version>
+    <commons-lang3.version>3.1</commons-lang3.version>
+    <easymock.version>3.1</easymock.version>
+    <findbugs-maven-plugin.version>2.4.0</findbugs-maven-plugin.version>
+    <guava.version>11.0.1</guava.version>
     <httpclient.version>4.1.3</httpclient.version>
+    <jackson-mapper-asl.version>1.9.3</jackson-mapper-asl.version>
+    <javassist.version>3.12.1.GA</javassist.version>
+    <javax.inject.version>1</javax.inject.version>
+    <javax.servlet.version>3.0.1</javax.servlet.version>
+    <jodatime.version>2.0</jodatime.version>
+    <junit.version>4.10</junit.version>
+    <log4j.version>1.2.16</log4j.version>
+    <maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <slf4j-log4j12.version>1.6.1</slf4j-log4j12.version>
+    <spring.framework.version>3.1.0.RELEASE</spring.framework.version>
     <spring-social-facebook.version>1.0.1.RELEASE</spring-social-facebook.version>
     <spring-social-web.version>1.0.2.RELEASE</spring-social-web.version>
   </properties>
@@ -93,7 +97,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
-        <version>2.4.0</version>
+        <version>${findbugs-maven-plugin.version}</version>
         <configuration>
           <findbugsXmlOutput>true</findbugsXmlOutput>
           <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
