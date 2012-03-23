@@ -13,12 +13,12 @@
     <repository>
       <id>nexus</id>
       <name>Nexus Release</name>
-      <url>http://10.0.100.27:8081/nexus/content/repositories/releases/</url>
+      <url>https://nexus-dev.higgle.com:8886/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshots</name>
-      <url>http://10.0.100.27:8081/nexus/content/repositories/snapshots/</url>
+      <url>https://nexus-dev.higgle.com:8886/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
