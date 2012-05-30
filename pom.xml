@@ -47,6 +47,7 @@
     <spring-social-facebook.version>1.0.1.RELEASE</spring-social-facebook.version>
     <spring-social-web.version>1.0.2.RELEASE</spring-social-web.version>
     <springrestdoclet.version>1.0-SNAPSHOT</springrestdoclet.version>
+    <commons-collections.version>3.0</commons-collections.version>
   </properties>
 
   <dependencies>
