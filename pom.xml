@@ -26,6 +26,7 @@
   <properties>
     <cargo-maven2-plugin.version>1.2.0</cargo-maven2-plugin.version>
     <cglib.version>2.2.2</cglib.version>
+    <commons-collections.version>3.0</commons-collections.version>
     <commons-lang3.version>3.1</commons-lang3.version>
     <easymock.version>3.1</easymock.version>
     <findbugs-maven-plugin.version>2.4.0</findbugs-maven-plugin.version>
@@ -47,7 +48,6 @@
     <spring-social-facebook.version>1.0.1.RELEASE</spring-social-facebook.version>
     <spring-social-web.version>1.0.2.RELEASE</spring-social-web.version>
     <springrestdoclet.version>1.0-SNAPSHOT</springrestdoclet.version>
-    <commons-collections.version>3.0</commons-collections.version>
   </properties>
 
   <dependencies>
