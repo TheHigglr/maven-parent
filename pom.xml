@@ -45,6 +45,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-log4j12.version>1.6.1</slf4j-log4j12.version>
     <spring.framework.version>3.1.0.RELEASE</spring.framework.version>
+    <spring-social-core.version>1.0.2.RELEASE</spring-social-core.version>
     <spring-social-facebook.version>1.0.1.RELEASE</spring-social-facebook.version>
     <spring-social-web.version>1.0.2.RELEASE</spring-social-web.version>
     <springrestdoclet.version>1.0-SNAPSHOT</springrestdoclet.version>
